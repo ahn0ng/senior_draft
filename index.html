@@ -3,88 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traveler in the Room</title>
-    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="logo.png" rel="icon" />
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script type="text/javascript">
+    function inputBox(){
+        let inputString; 
+        inputString=prompt('What is your name?', name)
+        alert('Welcome!\n'  +inputString);}
+        inputBox();
+
+    </script>
+
+    <style>
+        
+        
+    body {
+        background-color:skyblue; 
+        background-size: cover;
+        text-align: center;
+    }
+    
+    a {
+        margin-left:50px;
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        width: 750px;
+        height: 600px;
+        margin: 0 auto; 
+        
+    }
+
+
+</style>
+   <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .spinner {
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            from {
+                transform: rotate(0);
+            }
+            to {transform:rotate(360deg);
+            }
+        }
+    </style>
+<meta http-equiv="refresh" content="3; url=home.html">
+</script>
+    <title>Loading</title>
+
+
 </head>
 <body>
-
-    <div id="wrap">
-        <div id="margin_wrap">
-            <!-- header -->
-            <div id="header">
-                <div id="logo">
-                <a href="#">
-                    <h1><img src="logo.jpg" alt=""></h1>
-                </a>
-                </div>
-            </div>
-            <!-- header -->
-
-            <!-- con -->
-            <div class="con_wrap">
-                <div class="con">
-                    <ul class="clearfix">
-                        <li>
-                            <a href="usa.html">
-                                <img src="poster/usa.jpg" alt="" />
-                                <h2>United State</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="poster/ex_poster.jpg" alt="" />
-                                <h2>Country Name</h2>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- con --> 
-
-        
-            <!-- footer -->
-            <div id="footer">
-            <span>ahnong@berkeley.edu</span>
-            </div>
-            <!-- footer -->
+    
+    <div class="container">
+        <div class="spinner"><i class="fas fa-spinner fa-10x"></i></div>   
+       
         </div>
     </div>
-    
+ 
+
+
 </body>
 </html>
+
+
